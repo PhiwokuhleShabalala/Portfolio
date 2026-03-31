@@ -309,4 +309,35 @@ footer {
         font-size: 0.75rem;
         padding: 0.4rem 0.8rem;
     }
+    /* Languages Section */
+.languages-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.language-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background: #f9f9f9;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border-left: 4px solid #2c3e50;
+    min-width: 200px;
+}
+
+.language-name {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.language-level {
+    color: #666;
+    font-style: italic;
+}
 }
